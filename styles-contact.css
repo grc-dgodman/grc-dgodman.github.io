@@ -71,7 +71,7 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(163, 222, 233, 0.7); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(138, 213, 226, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 }
 
@@ -88,7 +88,7 @@ h1 {
 	font-size: 2em;
     margin: 0px auto 10px auto;
 	letter-spacing: 5px;
-    color: rgb(72, 88, 88);
+    color: rgb(192, 214, 235);
 }
 
 h2 {
@@ -106,7 +106,7 @@ p {
 	font-size: 1.2em;
     line-height: 1.6;
 	letter-spacing: 2px;
-    color: rgb(72, 88, 88);
+    color: rgb(192, 214, 235);
 }
     
 nav{
