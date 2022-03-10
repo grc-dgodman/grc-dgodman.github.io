@@ -63,6 +63,7 @@ html, body {
   background: url(images/sunsetbackgroundwebpageimage.jpg) 
 	center center fixed no-repeat;
 	background-size: cover;
+	font-family: "helvetica", sans-serif;
 	
 }
 
@@ -70,23 +71,24 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(138, 213, 226, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 50px;
+	margin-top: 40px;
 	text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+	font-family: "helvetica", sans-serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+	letter-spacing: 5px;
+    color: rgb(192, 214, 235);
 }
 
 h2 {
@@ -100,19 +102,20 @@ h2 {
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		
+	font-family: "helvetica", sans-serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+	letter-spacing: 2px;
+    color: rgb(192, 214, 235);
 }
     
 nav{
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: "helvetica", sans-serif;
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed turquoise;
-	border-width: 3px 0;
 	text-align: center;
+	letter-spacing: 1px;
 	margin-top: 2em;
 }  
 
@@ -126,12 +129,12 @@ nav a{
 }
 
 a{
-	color: #444;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 	font-weight: bold;
 }
 
 a:hover{
 	color:black;
-	background: pink;
+	background: rgb(192, 214, 235);
 }
