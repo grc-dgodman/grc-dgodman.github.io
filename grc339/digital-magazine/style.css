@@ -177,4 +177,30 @@ section.mainstory a figure img{
     height: 97%; 
     object-fit: cover;
 }
+
+}
+@media screen and (prefers-color-scheme: dark) {
+body{
+    background-color: rgb(69, 55, 55);
+    color: rgb(255, 255, 240);
+
+}
+h1 {  
+    background-image: url("NextInFashionLogoV1_darkmode.png");  
+    background-repeat: no-repeat;  
+    background-size: contain;  
+    }  
+
+h3{
+    color: rgb(255, 255, 240);
+}
+p{
+    color: rgb(255, 255, 240);
+}
+a{
+    color: rgb(255, 255, 240);
+}
+h1 img {  
+    opacity: 0;  
+    }  
 }
